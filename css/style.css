@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body .func {
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 3rem 2rem;
+}
+body .func h2 {
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: 300;
+  border: solid 1px #666;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin: 0 0 2rem 0;
+  padding: 0.3rem 1rem;
+}
+body .func:nth-child(odd) {
+  background: rgb(216, 227, 245);
+}
+body .func:nth-child(even) {
+  background: rgb(243, 224, 233);
+}
+body .func04 .func04__img, body .func04 .func04__btns {
+  display: flex;
+}
+body .func13 div {
+  display: flex;
+}
+body .func13 div .func13__btn {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgb(160, 178, 246);
+  border: none;
+  cursor: pointer;
+}
+body .func13 div .func13__btn.active {
+  background: rgb(236, 166, 166);
+}
+body .func14 .func14__box_wrap {
+  padding: 1rem;
+  background: #eee;
+}
+body .func14 .func14__box_wrap .func14__box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+body .func14 .func14__box_wrap .func14__box li {
+  display: block;
+  list-style-type: none;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: solid 1px #ccc;
+}
+body .func14 .func14__btns {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+body .func14 .func14__btns button {
+  margin: 0 1rem 1rem 0;
+}
+body .func14 .func14__res {
+  display: flex;
+  margin-top: 1rem;
+}
+body .func14 .func14__res div {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border: solid 1px #ccc;
+}

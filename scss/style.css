@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  background: #333;
+}
+body .func {
+  width: 50%;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 4rem 2rem;
+  box-sizing: border-box;
+}
+@media (max-width: 1200px) {
+  body .func {
+    width: 100%;
+    border-right: none !important;
+    border-bottom: solid 1px #666;
+  }
+}
+body .func h2 {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: #7f7f7f;
+  font-weight: 300;
+  width: fit-content;
+  display: block;
+  margin: 0 0 2rem 0;
+  padding: 0.5rem 0;
+}
+body .func h2 span {
+  display: block;
+  width: max-content;
+  border: solid 1px #7f7f7f;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+body .func h2 span::before {
+  content: "#";
+}
+body .func div, body .func a {
+  color: #ccc;
+}
+body .func p {
+  margin: 0;
+  border: solid 1px #7f7f7f;
+  color: #ccc;
+  padding: 0.5rem 1rem;
+  border-radius: 3rem;
+  width: max-content;
+}
+body .func label {
+  color: #ccc;
+}
+body .func .result {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border: solid 1px #aca2a2;
+  border-radius: 3rem;
+  min-height: 40px;
+  font-size: 1.5rem;
+}
+body .func .result img {
+  width: 100%;
+}
+body .func .result:first-of-type {
+  margin-top: 1rem;
+}
+body .func button {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+  margin: 1rem 1rem 0 0;
+  background: #49475b;
+  color: #ccc;
+  border: solid 1px #aca2a2;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.2rem;
+}
+body .func button:hover {
+  background: #25242b;
+  transition: 0.3s;
+}
+body .func input {
+  height: 30px;
+  padding: 0 1rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+body .func .checkbox, body .func .radio {
+  display: inline-block;
+  height: auto;
+}
+body .func textarea {
+  display: block;
+}
+body .func:nth-child(4n+1) {
+  background: rgb(30, 38, 51);
+  border-right: solid 1px #666;
+  border-bottom: solid 1px #666;
+}
+body .func:nth-child(4n+2) {
+  background: rgb(35, 32, 34);
+  border-bottom: solid 1px #666;
+}
+body .func:nth-child(4n+3) {
+  background: rgb(39, 39, 48);
+  border-right: solid 1px #666;
+  border-bottom: solid 1px #666;
+}
+body .func:nth-child(4n+4) {
+  background: rgb(51, 41, 53);
+  border-bottom: solid 1px #666;
+}
+body .func04 .func04__img, body .func04 .func04__btns {
+  display: flex;
+  width: 100%;
+}
+body .func04 .func04__img img, body .func04 .func04__btns img {
+  max-width: 140px;
+  width: 100%;
+}
+body .func13 div {
+  display: flex;
+}
+body .func13 div .func13__btn {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background: rgb(160, 178, 246);
+  border: none;
+  cursor: pointer;
+}
+body .func13 div .func13__btn.active {
+  background: rgb(236, 166, 166);
+}
+body .func14 .func14__box_wrap {
+  padding: 1rem;
+  background: #333;
+}
+body .func14 .func14__box_wrap .func14__box {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+body .func14 .func14__box_wrap .func14__box li {
+  display: block;
+  list-style-type: none;
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  border: solid 1px #ccc;
+}
+body .func14 .func14__btns {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+body .func14 .func14__btns button {
+  margin: 0 1rem 1rem 0;
+}
+body .func14 .func14__res {
+  display: flex;
+  margin-top: 1rem;
+}
+body .func14 .func14__res div {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border: solid 1px #ccc;
+}
+body .func56 .note {
+  display: inline;
+  color: #eee;
+  display: none;
+}
+body .func57 .note {
+  display: inline;
+  color: #eee;
+  display: none;
+}
+body .func58 .note {
+  display: inline;
+  color: #eee;
+  display: none;
+}/*# sourceMappingURL=style.css.map */
